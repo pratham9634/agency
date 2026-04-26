@@ -14,6 +14,7 @@ const HeroSection = () => {
           loop
           muted
           playsInline
+          poster="/posters/home-poster.png"
           className="w-full h-full object-cover scale-[1]"
         >
           <source
