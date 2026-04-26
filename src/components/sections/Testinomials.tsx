@@ -61,7 +61,7 @@ const Testimonials = () => {
 
       {/* Heading */}
       <div className="text-center max-w-3xl mx-auto px-6 relative z-10">
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
+        <h2 className="text-3xl md:text-4xl font-heading font-semibold tracking-tight text-gray-800">
           What Our Customers Say
         </h2>
         <p className="text-gray-500 mt-4">
@@ -96,7 +96,7 @@ const Testimonials = () => {
                     className="w-10 h-10 rounded-full border border-white shadow-sm"
                   />
                   <div>
-                    <h4 className="font-semibold text-gray-800 flex items-center gap-1">
+                    <h4 className="font-heading font-semibold tracking-tight text-gray-800 flex items-center gap-1">
                       {t.name} <span>{t.emoji}</span>
                     </h4>
                     <p className="text-xs text-gray-500">{t.role}</p>
@@ -139,7 +139,7 @@ const Testimonials = () => {
                     className="w-10 h-10 rounded-full border border-white shadow-sm"
                   />
                   <div>
-                    <h4 className="font-semibold text-gray-800 flex items-center gap-1">
+                    <h4 className="font-heading font-semibold tracking-tight text-gray-800 flex items-center gap-1">
                       {t.name} <span>{t.emoji}</span>
                     </h4>
                     <p className="text-xs text-gray-500">{t.role}</p>

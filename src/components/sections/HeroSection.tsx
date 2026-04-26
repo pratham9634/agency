@@ -35,7 +35,7 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 30, filter: "blur(10px)" }}
           animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
           transition={{ duration: 1, ease: "easeOut" }}
-          className="text-3xl md:text-5xl lg:text-6xl font-black tracking-tighter text-white mb-6 leading-[1.05] uppercase"
+          className="text-4xl md:text-5xl lg:text-6xl font-heading font-semibold tracking-tight text-white mb-6 leading-[1.05]"
         >
           We Turn Midnight Ideas into Digital Reality
         </motion.h1>
@@ -45,7 +45,7 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 20, filter: "blur(8px)" }}
           animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
           transition={{ duration: 1, delay: 0.2, ease: "easeOut" }}
-          className="text-lg md:text-2xl text-white mb-10 mx-auto font-semibold leading-relaxed"
+          className="text-lg md:text-2xl text-white/80 mb-10 mx-auto font-medium leading-relaxed"
         >
           A full-service digital agency dedicated to building scalable products that shine in a crowded market
         </motion.div>
@@ -58,11 +58,11 @@ const HeroSection = () => {
           className="flex flex-row items-center justify-center gap-4 w-full sm:w-auto mt-4"
         >
 
-          <button className="w-full sm:w-auto px-10 py-4 rounded-full bg-orange-600/10 text-white font-extrabold tracking-wide border-2 border-orange-600/30 hover:bg-orange-600 hover:border-orange-600 hover:scale-[1.03] active:scale-[0.98] transition-all duration-300 shadow-lg backdrop-blur-md uppercase text-sm">
+          <button className="w-full sm:w-auto px-10 py-4 rounded-full bg-orange-600/10 text-white uppercase tracking-wide text-sm font-medium border-2 border-orange-600/30 hover:bg-orange-600 hover:border-orange-600 hover:scale-[1.03] active:scale-[0.98] transition-all duration-300 shadow-lg backdrop-blur-md">
             Start Your Project
           </button>
 
-          <button className="w-full sm:w-auto px-10 py-4 rounded-full bg-white/50 text-neutral-900 font-extrabold tracking-wide border-2 border-neutral-300 hover:bg-white hover:scale-[1.03] active:scale-[0.98] transition-all duration-300 shadow-sm backdrop-blur-md uppercase text-sm">
+          <button className="w-full sm:w-auto px-10 py-4 rounded-full bg-white/50 text-neutral-900 uppercase tracking-wide text-sm font-medium border-2 border-neutral-300 hover:bg-white hover:scale-[1.03] active:scale-[0.98] transition-all duration-300 shadow-sm backdrop-blur-md">
             View Our Work
           </button>
 

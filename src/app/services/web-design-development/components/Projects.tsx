@@ -140,8 +140,7 @@ function ProjectRow({
 
         {/* title */}
         <h3
-          className="text-2xl md:text-[1.75rem] font-bold leading-tight tracking-tight text-neutral-900 mb-4"
-          style={{ fontFamily: "'Sora', sans-serif", letterSpacing: "-0.025em" }}
+          className="text-2xl md:text-[1.75rem] font-heading font-semibold leading-tight tracking-tight text-neutral-900 mb-4"
         >
           {project.title}
         </h3>
@@ -165,8 +164,7 @@ function ProjectRow({
             <p className="text-[10px] uppercase tracking-widest text-neutral-400 font-medium mb-0.5">
               Key Result
             </p>
-            <p className="text-[15px] font-bold text-neutral-900 tracking-tight"
-              style={{ fontFamily: "'Sora', sans-serif" }}>
+            <p className="text-[15px] font-heading font-bold text-neutral-900 tracking-tight">
               {project.result}
             </p>
           </div>
@@ -208,9 +206,6 @@ function ProjectRow({
 export default function Projects(): JSX.Element {
   return (
     <>
-      {/* import Sora from Google Fonts via <head> — or add to your layout */}
-      <style>{`@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&display=swap');`}</style>
-
       <section className="relative bg-[#f9f8f6] py-24 overflow-hidden">
         {/* ── heading ── */}
         <motion.div
@@ -228,8 +223,7 @@ export default function Projects(): JSX.Element {
           </div>
 
           <h2
-            className="text-4xl md:text-5xl font-bold tracking-tight text-neutral-900 leading-tight"
-            style={{ fontFamily: "'Sora', sans-serif", letterSpacing: "-0.03em" }}
+            className="text-4xl md:text-5xl font-heading font-semibold tracking-tight text-neutral-900 leading-tight"
           >
             Projects That{" "}
             <span
@@ -271,11 +265,10 @@ export default function Projects(): JSX.Element {
 
           <a
             href="#"
-            className="group relative inline-flex items-center gap-3 overflow-hidden rounded-full px-8 py-3.5 text-sm font-semibold transition-all duration-300"
+            className="group relative inline-flex items-center gap-3 overflow-hidden rounded-full px-8 py-3.5 text-sm font-heading font-semibold transition-all duration-300"
             style={{
               background: "linear-gradient(135deg, #f97316, #ec4899)",
               color: "#fff",
-              fontFamily: "'Sora', sans-serif",
               letterSpacing: "-0.01em",
               boxShadow: "0 4px 24px rgba(249,115,22,0.25)",
             }}

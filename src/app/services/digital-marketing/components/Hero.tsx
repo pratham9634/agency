@@ -45,7 +45,7 @@ const Hero = () => {
           initial={{ opacity: 0, y: 18 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-4xl md:text-6xl font-semibold tracking-tight text-slate-900 leading-tight"
+          className="text-4xl md:text-6xl font-heading font-semibold tracking-tight text-slate-900 leading-tight"
         >
           Growth that{" "}
           <span className="text-black relative">
@@ -74,7 +74,7 @@ const Hero = () => {
         >
 
           {/* primary */}
-          <button className="px-6 py-3 rounded-full bg-black text-white text-sm font-semibold hover:bg-black/90 transition-all duration-300 hover:scale-[1.1]">
+          <button className="px-6 py-3 rounded-full bg-black text-white uppercase tracking-wide text-sm font-medium hover:bg-black/90 transition-all duration-300 hover:scale-[1.1]">
             Book Strategy Call
           </button>
 

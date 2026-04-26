@@ -54,7 +54,7 @@ const Process = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.1 }}
-          className="text-3xl md:text-4xl font-bold text-gray-800 mt-3"
+          className="text-3xl md:text-4xl font-heading font-semibold tracking-tight text-gray-800 mt-3"
         >
           How We Work
         </motion.h2>
@@ -101,7 +101,7 @@ const Process = () => {
               </div>
 
               {/* Title */}
-              <h3 className="mt-5 text-lg font-semibold text-gray-800">
+              <h3 className="mt-5 text-lg font-heading font-semibold tracking-tight text-gray-800">
                 {step.title}
               </h3>
 

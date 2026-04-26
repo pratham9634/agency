@@ -105,7 +105,7 @@ const Services = () => {
         <p className="text-sm font-semibold text-orange-500 uppercase tracking-widest mb-3">
           What We Offer
         </p>
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
+        <h2 className="text-3xl md:text-4xl font-heading font-semibold tracking-tight text-gray-800">
           Solutions Designed for Growth
         </h2>
         <p className="text-gray-500 mt-4">
@@ -137,7 +137,7 @@ const Services = () => {
               </div>
 
               {/* Title */}
-              <h3 className="relative text-lg font-semibold text-gray-800 mb-2">
+              <h3 className="relative text-lg font-heading font-semibold tracking-tight text-gray-800 mb-2">
                 {service.title}
               </h3>
 

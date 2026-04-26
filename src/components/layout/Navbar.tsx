@@ -80,7 +80,7 @@ export default function Navbar() {
           }`}
         >
           {/* Logo */}
-          <Link href="/" className="font-bold text-xl tracking-tight text-neutral-900">
+          <Link href="/" className="font-heading font-bold text-xl tracking-tight text-neutral-900">
             AGENCY<span className="text-orange-600">.</span>
           </Link>
 
@@ -145,7 +145,7 @@ export default function Navbar() {
           <div className="flex items-center gap-4">
             <Link
               href="/contact"
-              className="hidden md:inline-flex px-5 py-2.5 text-sm font-bold text-white bg-orange-600 rounded-full hover:bg-orange-700 hover:scale-105 transition"
+              className="hidden md:inline-flex px-5 py-2.5 uppercase tracking-wide text-sm font-medium text-white bg-orange-600 rounded-full hover:bg-orange-700 hover:scale-105 transition"
             >
               Let's Collaborate
             </Link>
@@ -176,7 +176,7 @@ export default function Navbar() {
               <Link
                 key={item.title}
                 href={`/services/${item.path}`}
-                className="block text-2xl font-bold text-neutral-800 hover:text-orange-600 py-1"
+                className="block text-2xl font-heading font-semibold tracking-tight text-neutral-800 hover:text-orange-600 py-1"
               >
                 {item.title}
               </Link>
@@ -192,7 +192,7 @@ export default function Navbar() {
             <Link
               key={link.name}
               href={link.path}
-              className={`text-3xl font-bold py-2
+              className={`text-3xl font-heading font-semibold tracking-tight py-2
               ${
                 isActive(link.path)
                   ? "text-orange-700"
@@ -207,7 +207,7 @@ export default function Navbar() {
           <div className="mt-auto">
             <Link
               href="/contact"
-              className="block text-center w-full py-4 text-lg font-bold text-white bg-orange-600 rounded-2xl"
+              className="block text-center w-full py-4 uppercase tracking-wide text-sm font-medium text-white bg-orange-600 rounded-2xl"
             >
               Let's Collaborate
             </Link>

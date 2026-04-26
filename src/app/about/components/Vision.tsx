@@ -33,7 +33,7 @@ const Vision = () => {
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            className="text-4xl md:text-5xl font-semibold tracking-tight text-neutral-900"
+            className="text-4xl md:text-5xl font-heading font-semibold tracking-tight text-neutral-900"
           >
             Vision &{" "}
             <span className="bg-gradient-to-r from-orange-500 via-pink-500 to-purple-500 bg-clip-text text-transparent">
@@ -50,7 +50,7 @@ const Vision = () => {
           >
             <div className="flex items-center gap-3 mb-2">
               <Eye className="text-orange-500" />
-              <h3 className="text-xl font-semibold text-neutral-900">
+              <h3 className="text-xl font-heading font-semibold text-neutral-900">
                 Our Vision
               </h3>
             </div>
@@ -70,7 +70,7 @@ const Vision = () => {
           >
             <div className="flex items-center gap-3 mb-2">
               <Target className="text-pink-500" />
-              <h3 className="text-xl font-semibold text-neutral-900">
+              <h3 className="text-xl font-heading font-semibold text-neutral-900">
                 Our Mission
               </h3>
             </div>

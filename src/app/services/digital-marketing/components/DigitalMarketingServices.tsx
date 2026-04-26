@@ -40,7 +40,7 @@ const DigitalMarketingServices = () => {
           <div className="w-[500px] h-[200px] bg-gradient-to-r from-orange-200 via-red-200 to-pink-200 blur-3xl opacity-50 rounded-full" />
         </div>
 
-        <h3 className="relative text-4xl md:text-5xl font-semibold tracking-tight">
+        <h3 className="relative text-4xl md:text-5xl font-heading font-semibold tracking-tight">
 
           <span className="bg-gradient-to-r from-orange-500 via-red-500 to-pink-500 
             bg-clip-text text-transparent">
@@ -101,7 +101,7 @@ const DigitalMarketingServices = () => {
 
               <div className="mx-auto mb-3 w-2 h-2 rounded-full bg-gradient-to-r from-orange-500 via-red-500 to-pink-500 shadow-lg" />
 
-              <h4 className="text-sm font-semibold text-gray-900">
+              <h4 className="text-sm font-heading font-semibold tracking-tight text-gray-900">
                 Growth Marketing
               </h4>
 

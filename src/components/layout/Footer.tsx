@@ -25,7 +25,7 @@ const Footer = () => {
 
         {/* 🔥 CTA Section */}
         <div className="text-center max-w-2xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold">
+          <h2 className="text-3xl md:text-4xl font-heading font-semibold tracking-tight">
             Let’s build something amazing together
           </h2>
           <p className="text-gray-300 mt-3">
@@ -34,7 +34,7 @@ const Footer = () => {
           </p>
           <Link
             href="/contact"
-            className="inline-block mt-6 px-8 py-3 bg-orange-600 rounded-full font-semibold hover:bg-orange-700 transition"
+            className="inline-block mt-6 px-8 py-3 bg-orange-600 rounded-full uppercase tracking-wide text-sm font-medium hover:bg-orange-700 transition"
           >
             Start a Project 🚀
           </Link>
@@ -45,7 +45,7 @@ const Footer = () => {
 
           {/* About */}
           <div>
-            <h2 className="text-2xl font-bold mb-4">
+            <h2 className="text-2xl font-heading font-semibold tracking-tight mb-4">
               AGENCY<span className="text-orange-500">.</span>
             </h2>
             <p className="text-sm text-gray-300 leading-relaxed">
@@ -62,7 +62,7 @@ const Footer = () => {
 
           {/* Services */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Services</h3>
+            <h3 className="text-lg font-heading font-semibold tracking-tight mb-4">Services</h3>
             <ul className="space-y-2 text-gray-200 text-sm font-semibold">
               {["Web Design", "Branding", "UI/UX", "SEO", "Marketing"].map((item) => (
                 <li key={item}>
@@ -77,7 +77,7 @@ const Footer = () => {
           {/* Company + Location */}
           <div className="grid grid-cols-2 gap-8">
             <div>
-              <h3 className="text-lg font-semibold mb-4">Company</h3>
+              <h3 className="text-lg font-heading font-semibold tracking-tight mb-4">Company</h3>
               <ul className="space-y-2 text-gray-300 text-sm font-semibold">
                 {["about", "blog", "contact"].map((item) => (
                   <li key={item}>
@@ -90,7 +90,7 @@ const Footer = () => {
             </div>
 
             <div>
-              <h3 className="text-lg font-semibold mb-4">Location</h3>
+              <h3 className="text-lg font-heading font-semibold tracking-tight mb-4">Location</h3>
               <p className="text-sm text-gray-300 font-semibold">
                 New Delhi, India <br />
                 110001 <br />
@@ -103,7 +103,7 @@ const Footer = () => {
 
         {/* 📩 Newsletter */}
         <div className="max-w-xl mx-auto text-center">
-          <h3 className="text-xl font-semibold mb-3">
+          <h3 className="text-xl font-heading font-semibold tracking-tight mb-3">
             Subscribe to our newsletter
           </h3>
           <div className="flex flex-col sm:flex-row gap-3 mt-4">
@@ -112,7 +112,7 @@ const Footer = () => {
               placeholder="Enter your email"
               className="flex-1 px-4 py-3 rounded-xl bg-white/10 border border-white/20 text-white placeholder-gray-400 outline-none"
             />
-            <button className="px-6 py-3 bg-orange-600 rounded-xl font-semibold hover:bg-orange-700">
+            <button className="px-6 py-3 bg-orange-600 rounded-xl uppercase tracking-wide text-sm font-medium hover:bg-orange-700">
               Subscribe
             </button>
           </div>

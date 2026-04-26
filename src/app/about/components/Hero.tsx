@@ -38,7 +38,7 @@ const Hero = () => {
         >
 
           {/* headline */}
-          <h1 className="text-2xl md:text-5xl font-black tracking-tight text-neutral-900 leading-[1.05]">
+          <h1 className="text-2xl md:text-5xl font-heading font-semibold tracking-tight text-neutral-900 leading-[1.05]">
             We Don’t Just Run Ads. <br />
             <span className="bg-gradient-to-r from-orange-500 to-red-500 bg-clip-text text-transparent">
               We Build Growth Engines.
@@ -56,12 +56,12 @@ const Hero = () => {
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.96 }}
-              className="px-8 py-4 rounded-full bg-gradient-to-r from-orange-500 to-red-500 text-white font-semibold shadow-lg"
+              className="px-8 py-4 rounded-full bg-gradient-to-r from-orange-500 to-red-500 text-white uppercase tracking-wide text-sm font-medium shadow-lg"
             >
               Get Free Strategy →
             </motion.button>
 
-            <button className="px-8 py-4 rounded-full border border-neutral-300 text-white font-extrabold hover:bg-neutral-100 hover:text-black transition">
+            <button className="px-8 py-4 rounded-full border border-neutral-300 text-white uppercase tracking-wide text-sm font-medium hover:bg-neutral-100 hover:text-black transition">
               View Projects →
             </button>
           </div>
@@ -69,15 +69,15 @@ const Hero = () => {
           {/* trust stats */}
           <div className="flex gap-8 mt-10 text-sm">
             <div>
-              <h3 className="text-2xl font-bold text-neutral-900">150+</h3>
+              <h3 className="text-2xl font-heading font-bold text-neutral-900">150+</h3>
               <p className="text-neutral-500">Projects Delivered</p>
             </div>
             <div>
-              <h3 className="text-2xl font-bold text-neutral-900">4.8★</h3>
+              <h3 className="text-2xl font-heading font-bold text-neutral-900">4.8★</h3>
               <p className="text-neutral-500">Client Rating</p>
             </div>
             <div>
-              <h3 className="text-2xl font-bold text-neutral-900">3X</h3>
+              <h3 className="text-2xl font-heading font-bold text-neutral-900">3X</h3>
               <p className="text-neutral-500">Avg ROI Growth</p>
             </div>
           </div>
@@ -105,11 +105,11 @@ const Hero = () => {
               <div className="mt-6 grid grid-cols-2 gap-4">
                 <div className="p-4 rounded-xl bg-gradient-to-br from-orange-100 to-red-100">
                   <p className="text-xs text-neutral-500">Leads</p>
-                  <h3 className="text-xl font-bold text-neutral-900">+320%</h3>
+                  <h3 className="text-xl font-heading font-bold text-neutral-900">+320%</h3>
                 </div>
                 <div className="p-4 rounded-xl bg-gradient-to-br from-yellow-100 to-orange-100">
                   <p className="text-xs text-neutral-500">Conversion</p>
-                  <h3 className="text-xl font-bold text-neutral-900">2.4x</h3>
+                  <h3 className="text-xl font-heading font-bold text-neutral-900">2.4x</h3>
                 </div>
               </div>
             </div>

@@ -91,7 +91,7 @@ export default function WhatWeSolve(): JSX.Element {
         >
           <div className="text-center max-w-3xl mx-auto">
   
-  <h2 className="text-4xl md:text-6xl font-semibold tracking-tight leading-[1.1]">
+  <h2 className="text-4xl md:text-6xl font-heading font-semibold tracking-tight leading-[1.1]">
     Your Website Might Be{" "}
     <span className="bg-gradient-to-r from-neutral-900 via-neutral-700 to-neutral-400 bg-clip-text text-transparent">
       Costing You Customers
@@ -132,7 +132,7 @@ export default function WhatWeSolve(): JSX.Element {
 
                 {/* Text */}
                 <div>
-                  <h3 className="text-xl font-semibold mb-2">
+                  <h3 className="text-xl font-heading font-semibold tracking-tight mb-2">
                     {problem.title}
                   </h3>
                   <p className="text-neutral-600 leading-relaxed">

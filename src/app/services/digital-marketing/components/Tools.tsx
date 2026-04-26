@@ -70,7 +70,7 @@ function ToolCard({ stack }: { stack: typeof stacks[0] }) {
         </div>
 
         {/* title */}
-        <h3 className="text-xl font-bold text-slate-900 mb-2">
+        <h3 className="text-xl font-heading font-semibold tracking-tight text-slate-900 mb-2">
           {stack.title}
         </h3>
 
@@ -115,7 +115,7 @@ export default function Tools() {
           <motion.h2
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
-            className="text-4xl md:text-5xl font-semibold tracking-tight text-slate-900"
+            className="text-4xl md:text-5xl font-heading font-semibold tracking-tight text-slate-900"
           >
             Tools That{" "}
             <span className="bg-gradient-to-r from-orange-500 via-pink-500 to-cyan-500 bg-clip-text text-transparent">

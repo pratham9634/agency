@@ -37,7 +37,7 @@ const Approach = () => {
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          className="text-4xl md:text-5xl font-semibold tracking-tight text-neutral-900"
+          className="text-4xl md:text-5xl font-heading font-semibold tracking-tight text-neutral-900"
         >
           Your Approach{" "}
           <span className="bg-gradient-to-r from-orange-500 via-pink-500 to-purple-500 bg-clip-text text-transparent">
@@ -76,7 +76,7 @@ const Approach = () => {
               <div className="absolute left-4 top-2 w-4 h-4 rounded-full bg-gradient-to-r from-orange-400 via-pink-500 to-purple-500 shadow-lg group-hover:scale-125 transition-transform" />
 
               {/* title */}
-              <h3 className="text-xl md:text-2xl font-semibold text-neutral-900 tracking-tight group-hover:text-orange-500 transition-colors">
+              <h3 className="text-xl md:text-2xl font-heading font-semibold text-neutral-900 tracking-tight group-hover:text-orange-500 transition-colors">
                 {item.title}
               </h3>
 

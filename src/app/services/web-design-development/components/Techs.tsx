@@ -85,7 +85,7 @@ function TechCard({ stack }: { stack: typeof stacks[0] }) {
           <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-2xl bg-slate-50 border border-slate-100 group-hover:scale-110 group-hover:rotate-3 transition-all duration-500 shadow-sm">
             {stack.icon}
           </div>
-          <h3 className="text-xl font-bold text-slate-950 tracking-tight mb-2">
+          <h3 className="text-xl font-heading font-semibold text-slate-950 tracking-tight mb-2">
             {stack.title}
           </h3>
           <p className="text-sm text-slate-500 leading-relaxed mb-8 max-w-[240px]">
@@ -130,7 +130,7 @@ export default function TechEcosystem() {
             <motion.h2 
               initial={{ opacity: 0, y: 10 }}
               whileInView={{ opacity: 1, y: 0 }}
-              className="text-4xl md:text-6xl font-black tracking-tighter text-slate-950 leading-[0.9]"
+              className="text-4xl md:text-6xl font-heading font-semibold tracking-tight text-slate-950 leading-[0.9]"
             >
               The technology behind <br />
               <span className="text-slate-400">your future product.</span>

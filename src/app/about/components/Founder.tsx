@@ -65,7 +65,7 @@ const Founder = () => {
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            className="text-4xl md:text-5xl font-semibold tracking-tight text-neutral-900"
+            className="text-4xl md:text-5xl font-heading font-semibold tracking-tight text-neutral-900"
           >
             Built with{" "}
             <span className="bg-gradient-to-r from-orange-500 via-pink-500 to-purple-500 bg-clip-text text-transparent">
@@ -108,7 +108,7 @@ const Founder = () => {
               whileHover={{ y: -4 }}
               className="p-5 rounded-2xl border border-neutral-200 bg-white shadow-2xl hover:shadow-lg transition"
             >
-              <h4 className="text-sm font-semibold text-neutral-900 mb-1">
+              <h4 className="text-sm font-heading font-semibold tracking-tight text-neutral-900 mb-1">
                 Mission
               </h4>
               <p className="text-sm text-neutral-500">
@@ -121,7 +121,7 @@ const Founder = () => {
               whileHover={{ y: -4 }}
               className="p-5 rounded-2xl border border-neutral-200 bg-white shadow-2xl hover:shadow-lg transition"
             >
-              <h4 className="text-sm font-semibold text-neutral-900 mb-1">
+              <h4 className="text-sm font-heading font-semibold tracking-tight text-neutral-900 mb-1">
                 Vision
               </h4>
               <p className="text-sm text-neutral-500">

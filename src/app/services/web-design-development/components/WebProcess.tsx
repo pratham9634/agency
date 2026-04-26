@@ -42,7 +42,7 @@ export default function CurvedProcess() {
 
       {/* Header */}
       <div className="text-center max-w-3xl mx-auto px-6 mb-24">
-        <h2 className="text-5xl font-semibold tracking-tight text-gray-900">
+        <h2 className="text-5xl font-heading font-semibold tracking-tight text-gray-900">
           Our Development <br />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600">
             Process
@@ -112,7 +112,7 @@ export default function CurvedProcess() {
                 </div>
 
                 {/* Text */}
-                <h3 className="text-lg font-semibold text-gray-900 tracking-tight">
+                <h3 className="text-lg font-heading font-semibold text-gray-900 tracking-tight">
                   {step.title}
                 </h3>
 

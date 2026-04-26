@@ -41,7 +41,7 @@ const WebServices = () => {
   </div>
 
   {/* Title */}
-  <h3 className="relative text-4xl md:text-5xl font-semibold tracking-tight font-sans">
+  <h3 className="relative text-4xl md:text-5xl font-heading font-semibold tracking-tight">
 
     <span className="bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 
       bg-clip-text text-transparent drop-shadow-sm">
@@ -107,7 +107,7 @@ const WebServices = () => {
       {/* Accent glow dot */}
       <div className="mx-auto mb-3 w-2 h-2 rounded-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 shadow-lg shadow-purple-300" />
 
-      <h4 className="text-sm font-semibold tracking-wide text-gray-900">
+      <h4 className="text-sm font-heading font-semibold tracking-tight text-gray-900">
         Web Development
       </h4>
 
@@ -175,7 +175,7 @@ const ServiceItem = ({
 
         <span className="text-gray-700">{icon}</span>
 
-        <span className="text-sm font-medium text-gray-800 font-sans">
+        <span className="text-sm font-heading font-medium text-gray-800">
           {title}
         </span>
       </div>

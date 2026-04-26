@@ -40,7 +40,7 @@ const Cta = () => {
         <motion.h2
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
-          className="text-3xl md:text-5xl font-bold text-gray-800"
+          className="text-3xl md:text-5xl font-heading font-semibold tracking-tight text-gray-800"
         >
           Where Strong Teams Start
         </motion.h2>
@@ -65,7 +65,7 @@ const Cta = () => {
           <div className="flex flex-wrap justify-center gap-4 mt-6">
 
             {/* Book a Call */}
-            <button className="flex items-center gap-2 px-5 py-3 rounded-full bg-white/60 backdrop-blur-xl border border-white/40 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300">
+            <button className="flex items-center gap-2 px-5 py-3 uppercase tracking-wide text-sm font-medium rounded-full bg-white/60 backdrop-blur-xl border border-white/40 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300">
               <Phone size={16} className="text-orange-500" />
               Book a Call
             </button>
@@ -74,14 +74,14 @@ const Cta = () => {
             <a
               href="https://wa.me/1234567890"
               target="_blank"
-              className="flex items-center gap-2 px-5 py-3 rounded-full bg-green-500 text-white shadow-md hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
+              className="flex items-center gap-2 px-5 py-3 uppercase tracking-wide text-sm font-medium rounded-full bg-green-500 text-white shadow-md hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
             >
               <MessageCircle size={16} />
               WhatsApp
             </a>
 
             {/* Contact Form */}
-            <button className="flex items-center gap-2 px-5 py-3 rounded-full bg-white/60 backdrop-blur-xl border border-white/40 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300">
+            <button className="flex items-center gap-2 px-5 py-3 uppercase tracking-wide text-sm font-medium rounded-full bg-white/60 backdrop-blur-xl border border-white/40 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300">
               <Mail size={16} className="text-orange-500" />
               Contact Form
             </button>

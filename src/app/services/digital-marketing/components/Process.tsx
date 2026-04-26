@@ -43,7 +43,7 @@ export default function CurvedProcess() {
 
       {/* HEADER */}
       <div className="text-center max-w-3xl mx-auto px-6 mb-24">
-        <h2 className="text-4xl md:text-5xl font-semibold tracking-tight text-slate-900">
+        <h2 className="text-4xl md:text-5xl font-heading font-semibold tracking-tight text-slate-900">
           Our{" "}
           <span className="bg-gradient-to-r from-orange-500 via-red-500 to-pink-500 bg-clip-text text-transparent">
             Process
@@ -103,7 +103,7 @@ export default function CurvedProcess() {
                           <Icon size={18} />
                         </div>
 
-                        <h3 className="text-lg font-semibold text-slate-900">
+                        <h3 className="text-lg font-heading font-semibold tracking-tight text-slate-900">
                           {step.title}
                         </h3>
                       </div>

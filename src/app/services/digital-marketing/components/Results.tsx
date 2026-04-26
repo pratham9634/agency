@@ -53,7 +53,7 @@ export default function Results() {
           <motion.h2
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
-            className="text-4xl md:text-5xl font-semibold tracking-tight text-slate-900"
+            className="text-4xl md:text-5xl font-heading font-semibold tracking-tight text-slate-900"
           >
             Real Growth Stories,
             <span className="bg-gradient-to-r from-orange-500 via-pink-500 to-cyan-500 bg-clip-text text-transparent">
@@ -92,7 +92,7 @@ export default function Results() {
               </div>
 
               {/* value */}
-              <h3 className="text-3xl font-bold text-slate-900 mt-3">
+              <h3 className="text-3xl font-heading font-bold tracking-tight text-slate-900 mt-3">
                 {r.value}
               </h3>
 

@@ -50,7 +50,7 @@ const Results = () => {
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-3xl md:text-4xl font-bold text-gray-800"
+          className="text-3xl md:text-4xl font-heading font-semibold tracking-tight text-gray-800"
         >
           The Results Our Clients See
         </motion.h2>
@@ -84,7 +84,7 @@ const Results = () => {
                 <div className="absolute inset-0 rounded-2xl bg-orange-200/0 group-hover:bg-orange-200/20 blur-xl transition-all duration-500" />
 
                 {/* Number */}
-                <h3 className="relative text-3xl md:text-4xl font-bold 
+                <h3 className="relative text-3xl md:text-4xl font-heading font-bold tracking-tight 
                 bg-gradient-to-r from-orange-500 to-orange-400 
                 bg-clip-text text-transparent">
                   {stat.prefix}

@@ -69,7 +69,7 @@ const WhyChooseUs = () => {
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-3xl md:text-4xl font-bold text-gray-800"
+          className="text-3xl md:text-4xl font-heading font-semibold tracking-tight text-gray-800"
         >
           Why Choose Us
         </motion.h2>
@@ -113,7 +113,7 @@ const WhyChooseUs = () => {
               </div>
 
               {/* Title */}
-              <h3 className="relative mt-5 text-lg font-semibold text-gray-800">
+              <h3 className="relative mt-5 text-lg font-heading font-semibold tracking-tight text-gray-800">
                 {item.title}
               </h3>
 

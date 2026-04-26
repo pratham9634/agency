@@ -91,7 +91,7 @@ export default function FAQ(): JSX.Element {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-semibold tracking-tight">
+          <h2 className="text-4xl md:text-5xl font-heading font-semibold tracking-tight">
             Still thinking?
           </h2>
           <p className="text-neutral-500 mt-4 text-lg">

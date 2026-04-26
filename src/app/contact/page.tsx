@@ -20,7 +20,7 @@ const ContactPage = () => {
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="text-4xl md:text-6xl font-black tracking-tight text-neutral-900"
+          className="text-4xl md:text-6xl font-heading font-semibold tracking-tight text-neutral-900"
         >
           Let’s Build Something{" "}
           <span className="bg-gradient-to-r from-orange-500 to-red-500 bg-clip-text text-transparent">
@@ -51,7 +51,7 @@ const ContactPage = () => {
 
           {/* TRUST BLOCK */}
           <div>
-            <h2 className="text-2xl font-semibold text-neutral-900 mb-3">
+            <h2 className="text-2xl font-heading font-semibold tracking-tight text-neutral-900 mb-3">
               Why clients choose us
             </h2>
 
@@ -145,7 +145,7 @@ const ContactPage = () => {
           <motion.button
             whileTap={{ scale: 0.95 }}
             whileHover={{ scale: 1.03 }}
-            className="relative w-full py-4 rounded-xl font-bold text-white bg-gradient-to-r from-orange-500 to-red-500 shadow-lg overflow-hidden"
+            className="relative w-full py-4 rounded-xl uppercase tracking-wide text-sm font-medium text-white bg-gradient-to-r from-orange-500 to-red-500 shadow-lg overflow-hidden"
           >
             <span className="relative z-10">Send Message →</span>
 

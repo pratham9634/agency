@@ -26,7 +26,7 @@ export default function FloatingBookButton() {
           }}
         >
           <PhoneCall className="h-5 w-5" />
-          <span className="font-semibold tracking-wide hidden sm:inline-block">Book a Call</span>
+          <span className="uppercase tracking-wide text-sm font-medium hidden sm:inline-block">Book a Call</span>
         </motion.div>
       </Link>
     </div>
