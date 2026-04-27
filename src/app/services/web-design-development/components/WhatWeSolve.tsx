@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { JSX } from "react";
 
+
 type Problem = {
   title: string;
   description: string;
@@ -78,7 +79,7 @@ const problems: Problem[] = [
 export default function WhatWeSolve(): JSX.Element {
   return (
     <section className="relative py-28 px-6 bg-white text-neutral-900 overflow-hidden">
-      
+
       <div className="max-w-6xl mx-auto">
         
         {/* Heading */}
@@ -117,7 +118,7 @@ export default function WhatWeSolve(): JSX.Element {
               whileInView={{ opacity: 1, y: 0, scale: 1 }}
               transition={{ delay: index * 0.1, duration: 0.5 }}
               viewport={{ once: true }}
-              className="group relative p-6 rounded-2xl border border-neutral-200 bg-neutral-50 hover:bg-white hover:shadow-lg transition-all duration-300"
+              className="group relative p-6 rounded-2xl border border-neutral-200 bg-neutral-50 hover:bg-white shadow-sm hover:shadow-lg hover:scale-105 transition-all duration-300"
             >
               {/* subtle red glow on hover */}
               <div className="absolute inset-0 rounded-2xl bg-red-500/0 group-hover:bg-red-500/5 transition-all duration-300" />

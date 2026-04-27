@@ -15,22 +15,21 @@ const Hero = () => {
           className="w-full h-full object-cover scale-105"
         >
           <source
-            src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260405_074625_a81f018a-956b-43fb-9aee-4d1508e30e6a.mp4"
+            src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260328_115001_bcdaa3b4-03de-47e7-ad63-ae3e392c32d4.mp4"
             type="video/mp4"
           />
         </video>
 
         {/* Dark overlay for readability */}
-        <div className="absolute inset-0 bg-black/30 backdrop-blur-[2px]" />
+        <div className="absolute inset-0 bg-black/60" />
       </div>
 
       {/* Content */}
       <div className="relative z-10 max-w-3xl text-center">
-        
         {/* Heading */}
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-semibold text-white leading-[1.1] tracking-tight">
           Where Ideas Become
-          <span className="block italic font-light text-orange-400">
+          <span className="block italic font-mono text-orange-400">
             Digital Products
           </span>
         </h1>
