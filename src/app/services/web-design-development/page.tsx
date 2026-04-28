@@ -1,3 +1,4 @@
+import { Metadata } from 'next'
 import React from 'react'
 import Hero from './components/Hero'
 import Cta from '@/components/sections/Cta'
@@ -23,6 +24,17 @@ const page = () => {
       <Cta />
     </main>
   )
+}
+
+export const metadata: Metadata = {
+  title: "Web Design & Development",
+  description: "Build a high-performance, visually stunning website tailored to convert. We design and develop scalable, responsive web solutions.",
+  keywords: ["Web Design Services", "Web Development Agency", "Custom Website Design", "Responsive Web Development", "UI/UX Design", "eCommerce Development"],
+  openGraph: {
+    title: "Web Design & Development | .Agency.",
+    description: "Build a high-performance, visually stunning website tailored to convert. We design and develop scalable, responsive web solutions.",
+    url: "/services/web-design-development",
+  },
 }
 
 export default page

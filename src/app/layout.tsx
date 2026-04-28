@@ -22,8 +22,46 @@ const ibmPlexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  title: ".Agency. A Digital Marketing Agency",
-  description: ".Agency. is a Marketing Agency that helps businesses grow through digital marketing strategies.",
+  metadataBase: new URL("https://agency-beige-psi.vercel.app/"),
+  title: {
+    default: ".Agency. | Premium Digital Marketing & Web Design",
+    template: "%s | .Agency."
+  },
+  description: ".Agency. is a premium Marketing Agency that helps businesses grow through innovative digital marketing and web design strategies. We build systems that convert traffic into revenue.",
+  keywords: ["Digital Marketing", "Web Design", "SEO", "Marketing Agency", "Growth Agency", "Web Development", "PPC", "Social Media Marketing"],
+  openGraph: {
+    title: ".Agency. | Digital Marketing & Web Design",
+    description: ".Agency. is a premium Marketing Agency that helps businesses grow through innovative digital marketing and web design strategies.",
+    url: "/", 
+    siteName: ".Agency.",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: ".Agency. Digital Marketing & Web Design",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: ".Agency. | Digital Marketing & Web Design",
+    description: ".Agency. is a premium Marketing Agency that helps businesses grow through innovative digital marketing and web design strategies.",
+    images: ["/og-image.jpg"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
 };
 
 export default function RootLayout({

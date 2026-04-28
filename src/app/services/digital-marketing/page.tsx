@@ -1,3 +1,4 @@
+import { Metadata } from 'next'
 import React from 'react'
 import Hero from './components/Hero'
 import Cta from '@/components/sections/Cta'
@@ -21,6 +22,17 @@ const page = () => {
       <Cta/>
     </main>
   )
+}
+
+export const metadata: Metadata = {
+  title: "Digital Marketing Services",
+  description: "Accelerate your growth with our data-driven digital marketing services including SEO, PPC, Social Media, and Content Marketing.",
+  keywords: ["Digital Marketing Services", "SEO Services", "PPC Management", "Social Media Marketing", "Content Marketing", "B2B Marketing"],
+  openGraph: {
+    title: "Digital Marketing Services | .Agency.",
+    description: "Accelerate your growth with our data-driven digital marketing services including SEO, PPC, Social Media, and Content Marketing.",
+    url: "/services/digital-marketing",
+  },
 }
 
 export default page

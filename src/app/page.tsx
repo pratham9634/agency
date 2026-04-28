@@ -1,3 +1,4 @@
+import { Metadata } from 'next'
 import Cta from '@/components/sections/Cta'
 import HeroSection from '@/components/sections/HeroSection'
 import Offers from '@/components/sections/Offers'
@@ -25,6 +26,17 @@ const page = () => {
       
     </main>
   )
+}
+
+export const metadata: Metadata = {
+  title: "Home",
+  description: "Transform your business with our premium digital marketing, SEO, and web development services. Let's scale together.",
+  keywords: ["Best Marketing Agency", "Digital Marketing Experts", "Web Design Agency", "SEO Optimization", "PPC Campaigns", "Full-service Agency"],
+  openGraph: {
+    title: "Home | .Agency.",
+    description: "Transform your business with our premium digital marketing, SEO, and web development services. Let's scale together.",
+    url: "/",
+  },
 }
 
 export default page
