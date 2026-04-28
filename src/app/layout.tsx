@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import FloatingBookButton from "@/components/ui/FloatingBookButton";
+import SmoothScroll from "@/components/layout/SmoothScroll";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -75,10 +76,12 @@ export default function RootLayout({
       className={`${inter.variable} ${sora.variable} ${ibmPlexMono.variable} font-sans h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        <Navbar />
-        {children}
-        <Footer />
-        <FloatingBookButton />
+        <SmoothScroll>
+          <Navbar />
+          {children}
+          <Footer />
+          <FloatingBookButton />
+        </SmoothScroll>
       </body>
     </html>
   );
